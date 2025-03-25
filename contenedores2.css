@@ -1,0 +1,205 @@
+
+.nav-ejemplo {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-ejemplo a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.caja-padding {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    padding-top: 20px;    /* Espacio interno arriba */
+    padding-right: 30px;  /* Espacio interno derecha */
+    padding-bottom: 10px; /* Espacio interno abajo */
+    padding-left: 15px;   /* Espacio interno izquierda */
+    border: 2px solid blue;
+}
+
+.caja {
+    padding: TOP RIGHT BOTTOM LEFT;
+    padding: 10px 20px 30px 40px; /* Arriba, Derecha, Abajo, Izquierda */
+    width: 200px;
+    height: 100px;
+    background-color: rgb(173, 207, 230);
+    border: 2px solid blue;
+
+}
+
+/* pAdding con valores 1 2 3  */
+.caja-valor {
+    padding: TOP RIGHT BOTTOM LEFT;
+    padding: 50px;        /* Igual en todos los lados */
+    padding: 20px 40px;   /* Arriba/Abajo = 20px, Izquierda/Derecha = 40px */
+    padding: 10px 20px 30px; /* Arriba = 10px, Izquierda/Derecha = 20px, Abajo = 30px */
+    width: 100px;
+    height: 100px;
+    background-color: rgb(173, 207, 230);
+    border: 2px solid blue;
+}
+
+/* Bordes  */
+.contenedor {
+    border: 2px solid blue;
+}
+/* Tipos de bordes */
+.solid { border: 2px solid black; }   /* Borde sólido */
+.dashed { border: 2px dashed red; }   /* Borde discontinuo */
+.dotted { border: 2px dotted green; } /* Borde punteado */
+.double { border: 4px double blue; }  /* Borde doble */
+.groove { border: 4px groove purple; }/* Borde con efecto 3D */
+
+.caja-redondeada {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    border-radius: 15px; /* Redondea todas las esquinas */
+}
+
+.esquinas-diferentes {
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 2px solid red;
+    border-radius: 10px 30px 50px 70px; 
+    /* Arriba izquierda, arriba derecha, abajo derecha, abajo izquierda */
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%; /* Convierte el cuadrado en un círculo */
+}
+
+.img-redondeada {
+    width: 300px;
+    height: auto;
+    border-radius: 20px; /* Suaviza las esquinas */
+}
+
+.img-circular {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover; /* Evita que la imagen se deforme */
+}
+
+.caja-sombra {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.caja-izquierda {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    float: left; /* Flota a la izquierda */
+    margin-right: 10px;
+}
+
+.caja-derecha {
+    width: 150px;
+    height: 100px;
+    background-color: lightcoral;
+    float: right; /* Flota a la derecha */
+    margin-left: 10px;
+}
+
+/* Evitar problemas con clear  */
+.caja-flotante {
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    float: left;
+}
+
+.texto {
+    background-color: yellow;
+}
+
+.limpiar {
+    clear: both;
+}
+.columna {
+    width: 30%;
+    height: 100px;
+    float: left;
+    margin: 1%;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px;
+}
+
+.img-izquierda {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+}
+.img-derecha {
+    float: right;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.caja-relativa {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    position: relative;
+    top: 20px;  /* Se mueve 20px hacia abajo */
+    left: 30px; /* Se mueve 30px a la derecha */
+}
+
+.caja-padre {
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative; /* El padre debe ser relativo */
+}
+
+.caja-absoluta {
+    width: 100px;
+    height: 50px;
+    background-color: coral;
+    position: absolute;
+    top: 20px;  /* Se mueve 20px desde la parte superior del padre */
+    right: 10px; /* Se mueve 10px desde la derecha del padre */
+}
+
+.bloque {
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.inline {
+    display: inline;
+    background-color: lightcoral;
+    padding: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+}
+
+.oculto {
+    display: none;
+}
