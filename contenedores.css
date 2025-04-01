@@ -7,7 +7,7 @@
 }
 
 .fondo-color {
-    background-color: lightblue;
+    background-color: rgb(23, 163, 209);
     /* Fondo azul claro */
     padding: 20px;
     text-align: center;
@@ -48,7 +48,7 @@
 }
 
 .span-ejemplo {
-    color: red;
+    color: rgb(124, 1, 1);
     font-weight: bold;
 }
 
@@ -62,7 +62,7 @@
 .article-ejemplo {
     border: 2px solid #333;
     padding: 15px;
-    background-color: #fff;
+    background-color: #f4f0f0;
 }
 
 .aside-ejemplo {
